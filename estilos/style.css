@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/*font-family: 'PT Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300&family=Edu+SA+Beginner&display=swap');
+/*font-family: 'Cinzel', serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fonte1);
+    text-decoration: none;
+    color: var(--branco);
+}
+
+:root {
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --azul-escuro: #35155D;
+    --azul-menos-escuro: #512B81;
+    --azul-claro: #4477CE;
+    --azul-mais-claro: #8CABFF;
+    --seta: #2DB7B7;
+    --fonte1:'PT Sans', sans-serif;
+    --fonte2:'Cinzel', serif;
+}
+
+body{
+    background-color: var(--preto);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+section#esquerda{
+    width: 650px;
+    margin-right: 20px;
+}
+
+
+/* Texto de boas-vindas */
+div#text-boas-vidas > p{
+    width: 100%;
+    text-align: center;
+    line-height: 1em;
+    font-size: 5em;
+    font-family: var(--fonte2);
+    letter-spacing: 3px;
+    color: var(--branco);
+
+    margin-top: 5%;
+}
+
+
+/* NOME e PROFISSÃO */
+div#nome-profissao{
+    width: 300px;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 12px 50px 12px 50px;
+    margin: auto;
+    margin-top: 90px;
+    border: 1px solid var(--branco);
+    border-radius: 100px;
+}
+
+/* FOTO */
+div#sec-img > img{
+    width: 280px;
+    height: 500px;
+    border: 3px solid gray;
+    border-radius: 200px 200px;
+}
+
+/* Próxima página */
+section#proxima-pag{
+    display: flex;    
+    position: absolute;
+    right: 40px;
+    bottom: 50px;  
+}
+
+section#proxima-pag > img{
+    width: 30px;
+    margin: -4px 10px 0 0;
+}
+
+a#link{
+    position: relative;
+}
+
+a#link:hover{
+    transition: 0.4s ease-in-out;
+    color: var(--seta);
+}
+
+    /* Até a linha 103 é para fazer a animação. Link do vídeo: https://www.youtube.com/watch?v=AEM3ssmyFMo */
+a#link::after{
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: var(--seta);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+a#link:hover::after{
+    width: 100%;
+}
