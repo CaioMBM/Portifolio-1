@@ -147,3 +147,23 @@ footer img{
     width: 15px;
     height: 15px;
 }
+
+footer a{
+    position: relative;
+}
+
+    /* Até a linha 103 é para fazer a animação. Link do vídeo: https://www.youtube.com/watch?v=AEM3ssmyFMo */
+a::after{
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: var(--cinza);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover::after{
+    width: 100%;
+}
