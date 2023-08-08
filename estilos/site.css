@@ -114,6 +114,24 @@ main img.img-socios{
     border-radius: 20px;
 }
 
+/*
+main img#icone-whatsapp{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+*/
+main img#icone-whatsapp{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+
 
 /* FOOTTER */
 footer{
@@ -122,17 +140,13 @@ footer{
     background-color: var(--azul-bem-claro);
 }
 
+footer section{
+    display: flex;
+}
 
 #footer-esquerda{
-    margin-left: 290px;
+    margin: 0 250px 0 290px;
 }
-
-/*Para que eu jogasse o obejto para a direita do footer, eu coloquei a propriedade position:absolute e para se distanciar da parte direita eu usei o rigth:{quantidade para ficar distante da direita}*/
-#footer-direita{
-    position: absolute;
-    right: 350px;
-}
-
 
 footer h3{
     margin-bottom: 15px;
