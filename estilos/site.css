@@ -29,6 +29,7 @@
 }
 
 
+
 /* HEADER */
 header{
     display: flex;
@@ -66,6 +67,7 @@ header img{
     height: 350px;
     border-radius: 90px;
 }
+
 
 
 /* MAIN */
@@ -114,15 +116,6 @@ main img.img-socios{
     border-radius: 20px;
 }
 
-/*
-main img#icone-whatsapp{
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-}
-*/
 main img#icone-whatsapp{
     width: 50px;
     height: 50px;
@@ -166,7 +159,6 @@ footer a{
     position: relative;
 }
 
-    /* Até a linha 103 é para fazer a animação. Link do vídeo: https://www.youtube.com/watch?v=AEM3ssmyFMo */
 a::after{
     content: " ";
     width: 0%;
