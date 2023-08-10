@@ -128,17 +128,13 @@ main img#icone-whatsapp{
 
 /* FOOTTER */
 footer{
-    display: flex;
     padding: 40px 0 40px 0;
     background-color: var(--azul-bem-claro);
 }
 
 footer section{
     display: flex;
-}
-
-#footer-esquerda{
-    margin: 0 250px 0 290px;
+    justify-content: space-around;
 }
 
 footer h3{
