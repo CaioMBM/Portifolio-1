@@ -26,6 +26,8 @@
     --font2:'Cinzel', serif;
     --cor_de_texto1: #eccbaf;
     --cor_de_texto2: #FFA77F;
+    --cor_de_texto3: #be6b42;
+    --cor_de_texto4: #7b7bdb;
 }
 
 
@@ -73,18 +75,19 @@ header img{
 /* MAIN */
 main{
     padding: 60px 0 10px 0;
-    background-color: var(--azul-claro);
+    background-color: var(--azul-mais-claro);
 }
 
 
 div.curiosidades{
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 65px;
 }
 
 div.curiosidades h1{
     font-size: 3.3em;
     font-family: var(--font2);
+    color: #1f2efe;
 }
 
 section.caixa-maior{
@@ -106,26 +109,27 @@ h1.titulo-secao{
     margin-top: 5px;
     font-size: 2.8em;
     font-family: var(--font2);
+    color: #1f2efe;
 }
 
 p.texto{
     width: 350px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1.2em;
-    color: var(--cor_de_texto1);
+    color: #ebebeb;
 }
 
 main img#imagem-secao{
     width: 350px;
     height: 325px;
-    border: 2px solid var(--azul-mais-claro);
+    border: 1px solid #1f2efe;
     border-radius: 20px;
 }
 
 main img.img-socios{
     width: 350px;
     height: 325px;
-    border: 3px solid var(--azul-mais-claro);
+    border: 1px solid #1f2efe;
     border-radius: 20px;
 }
 
