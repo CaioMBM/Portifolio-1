@@ -122,14 +122,14 @@ p.texto{
 main img#imagem-secao{
     width: 350px;
     height: 325px;
-    border: 1px solid #1f2efe;
+    
     border-radius: 20px;
 }
 
 main img.img-socios{
     width: 350px;
     height: 325px;
-    border: 1px solid #1f2efe;
+    
     border-radius: 20px;
 }
 
@@ -145,7 +145,7 @@ main img#icone-whatsapp{
 
 /* FOOTTER */
 footer{
-    padding: 40px 0 40px 0;
+    padding: 40px 0;
     background-color: var(--azul-bem-claro);
 }
 
